@@ -5,7 +5,7 @@
 
 ## Introduction
 
-This is a python version CHIP-8 Emulator. Although it was originally created as a virtual machine, CHIP-8 could be treated as a simple game console. As a result, implementing this emulator is a good way to have a brief understanding of how computer works.
+This is a python version CHIP-8 Emulator. Although it was originally created as a virtual machine, CHIP-8 could be treated as a simple game console. As a result, implementing this emulator is a good way to get a brief understanding of how computer works.
 
 ## Usage
 
