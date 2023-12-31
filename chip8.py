@@ -120,6 +120,7 @@ class Emulator:
 
         self.delayTimer = DelayTimer()
         self.soundTimer = SoundTimer()
+        pygame.init()
         pygame.time.set_timer(pygame.USEREVENT+1, int(1000 / 60))
         
         self.keys = []
@@ -154,7 +155,6 @@ class Emulator:
         self.zeroColor = [0, 0, 50]
         self.oneColor = [255, 255, 255]
 
-        pygame.init()
         self.size = 10
         width = 64
         height = 32
